@@ -123,9 +123,19 @@ Escreve mensagens para outro usuário em rede.
 OUTROS
 bin
 Contém arquivos programas que são usados com frequência pelos usuários. Armazena os executáveis de alguns comandos básicos do sistema, como o sur, tar, cat, rm, pwd, etc.
+São os binários essenciais do usuário
+/boot
+Arquivos estáticos de boot
+/dev
+arquivos de dispositivos
+/etc
+arquivos de configuração não específicos
+/home
+postos do usuário comum do sistema
+/usr
+multi-usuário utilitários e aplicações
 /var
-Dados variáveis, como arquivos e diretórios de spool, dados de administração e login, e arquivos transitórios.
-
+Dados variáveis, como arquivos e diretórios de spool, dados de administração e login, e arquivos transitórios. São arquivos vairáveis (conteúdo dinâmico).
 cd..
 Sai do seu atual diretório, indo para um diretório acima.
 cd ~
@@ -136,7 +146,8 @@ mv
 "Move". Com ele posso renomear de um diretório e também movê-lo;
 Ex: mv NOMEANTIGO NOVONOME (Renomeação)
 Ex2: mv NOMEDODIRETÓRIO NOVOENDEREÇOPARAONDEVOUMANDAR.
+rm –rf nomepasta
+a letra "r" indica recursividade, ou seja, deleta a pasta e tudo que estiver nela
 rmdir
 "Remove directory". Remove diretórios.
 Ex: rmdir NOME DA PASTA.
-
